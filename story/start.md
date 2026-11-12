@@ -1,40 +1,26 @@
-<!--
-  START.MD: the opening of your team's story.
-  The repository's owner looks after this file.
-
-  The first line that starts with one # is the story's title.
-  by:     the name shown under the title (your team's name)
-  theme:  how the page looks: paper, night, forest, or ocean
-
-  The first scene in this file is where every player begins.
-
-  The crossroads scene sends players to each teammate's path. Change the
-  words of those choices however you like, but keep #path-1, #path-2, and so
-  on: each one leads to the first scene in that teammate's file.
-
-  How to write a scene: see the cheat sheet in any path file, or in README.md.
-  Lines inside these comment marks are notes. Players never see them.
--->
-
-# The Last Light on Gull Island
+# The Bell Beneath Gull Island
 by: CS 1101
-theme: paper
+theme: night
 
 ## dock
-![A small rocky island at dusk, with a dark lighthouse on the cliff](images/island.svg)
+![A rocky island with a lighthouse above the sea](images/island.svg)
 
-The ferry leaves you on a crooked wooden dock and chugs off into the fog. You are the new lighthouse keeper of Gull Island, and this is your first night on the job.
+The last ferry disappears into the fog, leaving you on Gull Island for your first night as lighthouse keeper. The tower is dark, and an approaching ship sounds its horn beyond the rocks.
 
-Up on the cliff, the lighthouse is dark. It should have been lit an hour ago.
+Then a bell rings beneath your feet.
 
-Somewhere out in the fog, a ship's horn sounds. Then another, closer.
+A warning has been carved into the dock: **If the island calls your name, do not answer.**
 
-[Find a way to get that light working](#crossroads)
+From the village comes a cry for help. You have to find what is calling the ships before another one follows it onto the rocks.
+
+[Follow the cry toward the island's crossroads](#crossroads)
 
 ## crossroads
-You stand where the island's paths meet. Gulls complain from every roof and rock, and the dark tower watches over all of it.
+Four paths split around a weathered sign. The village clock has stopped, mist crawls along the cliff trail, and the tide exposes the ribs of a wreck below. Above them all stands the unlit lighthouse.
 
-[Walk up the hill to the village](#path-1)
-[Take the windy trail along the cliffs](#path-2)
-[Head down to the beach](#path-3)
-[Go straight to the lighthouse](#path-4)
+The bell rings again. This time, it sounds closer.
+
+[Investigate the knocking beneath the village watch house](#path-1)
+[Search the cliffs for another way to guide the ship](#path-2)
+[Search the wreck on the beach for lost supplies](#path-3)
+[Try to restore the lighthouse beam](#path-4)
