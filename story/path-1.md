@@ -18,6 +18,8 @@ A lit lantern rests on the desk. You take it, keeping its flame sheltered from t
 
 get: lantern
 
+A drawing beside the note shows a bell clamped between two metal jaws, with an arrow pointing to a red lever.
+
 A note reads: "The bell calls ships toward the rocks. Pull the red lever to silence it. Never answer the voice."
 
 [Carry your supplies to the cellar stairs](#cellar-stairs)
@@ -49,7 +51,7 @@ With the room quiet, you lift one end of the shelf so Tomas can crawl free. Toge
 [Reunite Tomas with Mara](#village-rescue)
 
 ## village-rescue
-Mara runs to her brother and wraps him in her coat. The village clock finally ticks forward.
+Mira runs to her brother and wraps him in her coat. The village clock finally ticks forward.
 
 Out in the fog, a ship turns away from the bell's false call. The lighthouse still needs its keeper, but tonight you have saved Tomas and broken the village's curse.
 
