@@ -1,59 +1,69 @@
-<!--
-  PATH-1.MD: one teammate's part of the story.
-
-  Put your name after by: below. It's shown at the end of your endings.
-
-  Your first scene must be called path-1. The crossroads scene in start.md
-  links to #path-1, so that's how players get here. Everything else in this
-  file is yours: rewrite it, add scenes, add endings.
-
-  Cheat sheet:
-    ## scene-name                  starts a new scene (lowercase letters,
-                                   numbers and dashes, no spaces)
-    Any text you like.             a blank line starts a new paragraph
-    **bold**   *italic*
-    ![What the picture shows](images/my-picture.png)
-    get: lantern                   the player picks up a lantern
-    [Open the door](#hall)         a choice: leads to the scene called hall
-    [Unlock it](#vault) if key     a choice that only works if you have a key
-    THE END                        this scene is an ending
-
-  Lines inside these comment marks are notes. Players never see them.
--->
-
-by:
+by: Miguel Manfre
 
 ## path-1
-The village is five crooked houses and a bakery. Every window is dark except the bakery's, where warm light spills onto the cobblestones.
+The village clock is frozen at 11:47. Every house is silent, but three sharp knocks come from beneath the abandoned watch house.
 
-A little sign on the house next door says KEEPER in faded paint.
+A woman named Mara stands beside the gate. "My brother went down there to stop the bell," she says. "Now something below the floor is using his voice."
 
-[Knock on the bakery door](#bakery)
-[Knock on the keeper's house](#old-keeper)
-[Go back to the crossroads](#crossroads)
+[Search the watch house office](#watch-office)
+[Follow the knocking to the cellar stairs](#cellar-stairs)
+[Return to the crossroads](#crossroads)
 
-## bakery
-Rosa the baker opens the door in a cloud of flour. "You're the new keeper? Then you'll want this. The tower stairs are black as a boot at night."
+## watch-office
+A desk has been dragged across the room. Beneath it, you find a rusty key with a bell stamped on its handle. You put it in your pocket.
 
-She hands you an old brass lantern.
+get: rusty key
+
+A lit lantern rests on the desk. You take it, keeping its flame sheltered from the wind.
 
 get: lantern
 
-"There's pie, if you'd like some," she adds. "Blackberry."
+A note reads: "The bell calls ships toward the rocks. Pull the red lever to silence it. Never answer the voice."
 
-[Stay for a slice of pie](#pie)
-[Thank her and head back out](#path-1)
+[Carry your supplies to the cellar stairs](#cellar-stairs)
+[Go back to Mara at the gate](#path-1)
 
-## pie
-The pie is warm, and the chair by the oven is soft. You close your eyes for just a moment.
+## cellar-stairs
+Moonlight through a broken window reveals steps leading down to a locked cellar door. A bell symbol is scratched above its keyhole.
 
-When you open them, it's morning. The ship made it past the rocks by pure luck, and the harbor master is waiting outside with a very long list of complaints.
+From the other side, a voice whispers, "Mara sent you, didn't she? Let me out."
+
+[Unlock the cellar door](#bell-cellar) if rusty key
+[Return to the office to search for a key](#watch-office)
+[Leave the watch house and return to the crossroads](#crossroads)
+
+## bell-cellar
+You unlock the door and descend. Pale light shines from a cracked bell hanging above a black pool. Beside it, a red lever trembles.
+
+Mara's brother, Tomas, is trapped behind a fallen shelf. His lips are still, but his voice rises from the water.
+
+[Pull the red lever before helping Tomas](#silent-bell)
+[Answer the voice coming from the pool](#borrowed-voice)
+[Retreat to the cellar stairs](#cellar-stairs)
+
+## silent-bell
+You pull the lever. A metal clamp closes around the bell, cutting off its hum. The voice in the pool stops.
+
+With the room quiet, you lift one end of the shelf so Tomas can crawl free. Together, you climb back to the gate.
+
+[Reunite Tomas with Mara](#village-rescue)
+
+## village-rescue
+Mara runs to her brother and wraps him in her coat. The village clock finally ticks forward.
+
+Out in the fog, a ship turns away from the bell's false call. The lighthouse still needs its keeper, but tonight you have saved Tomas and broken the village's curse.
+
+**Ending: The Voice Goes Quiet**
 
 THE END
 
-## old-keeper
-An old man opens the door just a crack. "Abernathy," he says. "I kept that light for forty years."
+## borrowed-voice
+"Who are you?" you ask.
 
-"The tower door is locked, and the only key went down with my boat when she sank off the south beach. If you want that light lit, the key is in the wreck."
+The pool answers in your voice. You try to shout, but no sound comes out. Your reflection smiles and steps out of the water while you sink into the glassy surface.
 
-[Go back to the crossroads](#crossroads)
+Above you, your double picks up the bell. Somewhere in the fog, a ship changes course toward the island.
+
+**Ending: Someone Else Goes Home**
+
+THE END
